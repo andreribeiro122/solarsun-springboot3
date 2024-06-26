@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.solarsun.course.entities.User;
 
 @RestController
-@RequestMapping(value = "/penis")
+@RequestMapping(value = "/users")
 public class UserResource {
 
 	@GetMapping
